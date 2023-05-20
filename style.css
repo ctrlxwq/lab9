@@ -1,0 +1,120 @@
+@import url('reset_style.css');
+@import url('https://fonts.googleapis.com/css2?family=Poller+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poller+One&family=Roboto+Mono:wght@700&display=swap');
+
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.colours{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.colours_container{
+    margin: 20px;
+}
+
+.buttons_container{
+    margin: 20px;
+}
+
+.hex_colour, .rgb_colour{
+    font-size: 16px;
+    margin: 4px;
+    text-align: center;
+}
+
+.logotype{
+    margin: 20px 30px 0 30px;
+}
+
+.color1, .color2, .color3, .color4, .color5, .color6, .color7, .color8{
+    width: 70px;
+    height: 70px;
+    margin: 0px auto;
+}
+
+.color1{
+    background-color: #232323;
+}
+
+.color2{
+    background-color: #00ecf9;
+}
+.color3{
+    background-color: #fff;
+    border: 1px solid #000;
+}
+
+.color4{
+    background-color: #8308FF;
+}
+
+.color5{
+    background-color: #00FF29;
+}
+
+.color6{
+    background-color: #FF0834;
+}
+
+.color7{
+    background-color: #FF08D7;
+}
+
+.color8{
+    background-color: #FFD708;
+}
+
+.description{
+    font-size: 22px;
+    margin: 20px;
+}
+
+.letters_header{
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.font1{
+    font-family: 'Roboto Mono';
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.font2{
+    font-family: 'Poller One';
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.send_message_btn{
+    margin: 0 auto;
+    background-color: transparent;
+    border: 1px solid #1FFF01;
+    color: #1FFF01;
+    font-family: Podkova;
+
+}
+
+.send_message_btn:hover{
+    background-color: #15d700;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.btn_contact{
+    border: solid;
+    border-radius: 60px;
+    text-align: center;
+    font-size: 16px;
+    padding: 5px;
+}
+
+
+
+
